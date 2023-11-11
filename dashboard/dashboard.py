@@ -381,7 +381,7 @@ def plot_geolocation_distribution(geo_df):
         (min_val, max_val)
     )
 
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(12, 8))
     world.boundary.plot(ax=ax, linewidth=0.5, color='gray')
     gdf.plot(
         ax=ax,
