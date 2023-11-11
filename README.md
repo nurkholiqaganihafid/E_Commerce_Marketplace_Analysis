@@ -91,10 +91,18 @@ How are the sales performance, number of ordered items, and revenue on E-Commerc
   <img alt="Number of Orders per Month (Last 12 Months)" title="Number of Orders per Month (Last 12 Months)" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/97e9a660-c6f3-463d-b715-6312b4cb6ab3" width="750">
 </p>
 
+> Based on the visualization above, it can be observed that the month with the highest number of orders is November 2017.
+
+> Apart from that, there was a significant drastic decline in September 2018.
+
 - By revenue
 <p align="center">
   <img alt="Total Revenue per Month (Last 12 Months)" title="Total Revenue per Month (Last 12 Months)" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/00f14915-555f-4e01-8224-808bcf92b0fc" width="750">
 </p>
+
+> Experiencing a very drastic decline in the number of orders in September 2018, of course, this will have a huge impact on the E-Commerce marketplace for future profits.
+
+> To find out the cause of this decline, it is necessary to consider further analysis regarding several factors, such as the existence of competitors, marketing campaigns, and so on.
 
 #### 2nd Question
 [👆](#outline)
@@ -102,6 +110,10 @@ What products sell the most and least?
 <p align="center">
   <img alt="Best and Worst Performing Product by Number of Sales" title="Best and Worst Performing Product by Number of Sales" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/e5255e33-2b71-4d3e-b4af-f2f38a91fc58" width="750">
 </p>
+
+> Based on the plot above, the `Bed Bath Table` product has the highest sales.
+
+> Meanwhile, `Security and Services products` have the lowest sales.
 
 #### 3rd Question
 [👆](#outline)
@@ -111,10 +123,18 @@ How is the distribution of review scores on products sold and what is the percen
   <img alt="Distribution of Review Scores" title="Distribution of Review Scores" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/9f5e9a34-9cbf-44b3-ba73-efab408b5848" width="750">
 </p>
 
+> This distribution gives an idea of how often each review score appears on products sold.
+
+> Review score 5 is the one that appears the most with 66,264.
+
+> This indicates that the product purchased is very good.
+
 - By percentage review score
 <p align="center">
   <img alt="Percentage of Products with Review Score" title="Percentage of Products with Review Score" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/5b521f26-006d-4c73-a152-015552224ab7" width="750">
 </p>
+
+> The highest percentage of review scores is a rating of 5, with 56.5%.
 
 #### 4th Question
 [👆](#outline)
@@ -122,6 +142,10 @@ How is the product delivery time distributed?
 <p align="center">
   <img alt="Distribution of Order Delivery Time" title="Distribution of Order Delivery Time" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/b6e55350-91d3-4ce4-b403-02383f866036" width="750">
 </p>
+
+> There are some deliveries with a longer time, such as 210 days, which has a frequency of 1. However, this very long delivery frequency is very rare.
+
+> Most deliveries occur within a time frame of 1 to 50 days.
 
 #### 5th Question
 [👆](#outline)
@@ -131,15 +155,21 @@ What are the demographic characteristics of customers in the e-commerce marketpl
   <img alt="Number of Orders by Customer State" title="Number of Orders by Customer State" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/614db033-2ed0-4710-8674-e00b0e583939" width="750">
 </p>
 
+> __SP__ is the state that places the most orders.
+
 - By customer city
 <p align="center">
   <img alt="Top 10 Cities by Number of Orders" title="Top 10 Cities by Number of Orders" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/6c115cc8-d8fc-4794-8469-d57711c88528" width="750">
 </p>
 
+> The city of __Sao Paulo__ has the largest number of orders.
+
 - By payment type
 <p align="center">
   <img alt="Number of Orders by Payment Type" title="Number of Orders by Payment Type" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/dac985a6-b253-4b64-b308-5c21e1372aee" width="750">
 </p>
+
+> Based on the output above, the most commonly used payment method is `credit_card`. There are also transactions with the payment type (`debit_card`), which are very few in number.
 
 #### 6th Question
 [👆](#outline)
@@ -148,6 +178,8 @@ Is there a correlation between product price and shipping costs (freight_value)?
   <img alt="E-Commerce Marketplace Data Correlation" title="E-Commerce Marketplace Data Correlation" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/4c73e43f-cd84-4033-9e6d-2d8ff3695fe9" width="750">
 </p>
 
+> This output shows the correlation coefficient with other variables in the DataFrame correlation_matrix for the E-Commerce marketplace.
+
 #### 7th Question
 [👆](#outline)
 How is the distribution of geolocation based on latitude and longitude in Brazil?
@@ -155,6 +187,9 @@ How is the distribution of geolocation based on latitude and longitude in Brazil
   <img alt="Geolocation Distribution" title="Geolocation Distribution" src="https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/498fcd8b-db17-44ea-b001-01637b963329" width="750">
 </p>
 
+> A geolocation plot has been created by depicting country borders using red color and displaying geolocation points.
+
+> The image above shows the SP state that occupies the most geolocation point positions.
 
 # 📚Conclusions and Recommendations
 - Conclusions
