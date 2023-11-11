@@ -10,8 +10,8 @@ from matplotlib.colors import LinearSegmentedColormap
 sns.set_style('darkgrid')
 
 # Load Data
-all_df = pd.read_csv('../dashboard/all_data.csv')
-geo_df = pd.read_csv('../dashboard/geolocation.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/main/dashboard/all_data.csv')
+geo_df = pd.read_csv('https://raw.githubusercontent.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/main/dashboard/geolocation.csv')
 
 def display_dataframe(df, option):
     selected_product = df[df['product_category_name_english'].isin(option)]
