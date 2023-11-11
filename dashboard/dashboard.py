@@ -414,7 +414,7 @@ min_date = all_df["order_approved_at"].min()
 max_date = all_df["order_approved_at"].max()
 
 with st.sidebar:
-    st.image('../dashboard/mecoliq.png')
+    st.image('https://raw.githubusercontent.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/main/dashboard/mecoliq.png')
 
     start_date, end_date = st.date_input(
         label='Select Time Range',
