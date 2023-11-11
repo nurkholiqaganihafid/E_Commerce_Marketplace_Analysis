@@ -77,8 +77,12 @@ def plot_total_orders_and_revenue(daily_orders_df):
     total_orders = daily_orders_df.order_count.sum()
     total_revenue = format_currency(daily_orders_df.revenue.sum(), 'BRL', locale='pt_BR')
 
-    st.metric('#Total Orders', value=total_orders)
-    st.metric('#Total Revenue', value=total_revenue)
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric('#Total Orders', value=total_orders)
+    
+    with col2:
+        st.metric('#Total Revenue', value=total_revenue)
 
 def plot_daily_orders(daily_orders_df, min_date):
     if min_date <= daily_orders_df['order_approved_at'].max() - pd.DateOffset(days=60):
@@ -377,7 +381,7 @@ def plot_geolocation_distribution(geo_df):
         (min_val, max_val)
     )
 
-    fig, ax = plt.subplots(figsize=(18, 14))
+    fig, ax = plt.subplots(figsize=(10, 6))
     world.boundary.plot(ax=ax, linewidth=0.5, color='gray')
     gdf.plot(
         ax=ax,
